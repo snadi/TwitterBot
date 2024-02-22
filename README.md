@@ -1,11 +1,13 @@
 # In-Class Exercise to Practice Using Test Doubles
 
-Course: CS-UH-3260
-Instructor: Sarah Nadi
+- Course: CS-UH-3260
+- Instructor: Sarah Nadi
 
 ## Learning Objective
 
 In this activity, you will learn how to mock an external dependency that depends on a rest API response (and thus network connectivity). You will also learn how to simulate error conditions in the environment to test a system for robustness.
+
+*Disclaimer*: Yes, Twitter is now called X, but Twitter is such a better name :-) Accordingly, this description sticks to the old terminology of the service (tweet etc.)
 
 ## Resources
 
@@ -15,8 +17,6 @@ In this activity, you will learn how to mock an external dependency that depends
 
 
 ## Task: Unit test application logic without real interactions with Twitter
-
-Disclaimer: Yes, Twitter is now called X, but Twitter is such a better name :-) Accordingly, this description sticks to the old terminology of the service (tweet etc.)
 
 You are provided with a very basic implementation of Twitter bot, in Java. 
 This post does two simple tasks: posting a tweet and replying to a tweet.
@@ -32,7 +32,7 @@ Accordingly, at this point, you only want to test the logic of your application 
 
 Test each of the two provided functionalities (post tweet, reply to tweet) without actually communicating with the Twitter servers. You do not need to test the main loop of the bot, just the two functions above. You will need to use mockito for this (or easymock if you want).
 
-###Step 2: Robustness Tactic
+### Step 2: Robustness Tactic
 
 You want to add a robustness tactic to your implementation to avoid the application crashing immediately when communication with the Twitter API fails. You decide you will add robustness by retrying the communication with the API 3 times before gracefully reporting an error message.
 
