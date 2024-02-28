@@ -8,6 +8,8 @@ In this activity, you will learn how to mock an external dependency that depends
 
 *Disclaimer*: Yes, Twitter is now called X, but Twitter is such a better name :-) Accordingly, this description sticks to the old terminology of the service (tweet etc.)
 
+*Credits*: Adapted from a similar CMU assignment by Christian Kästner.
+
 ## Resources
 
 *	Twitter4J API [https://twitter4j.org](https://twitter4j.org)
