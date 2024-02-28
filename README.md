@@ -1,6 +1,5 @@
 # In-Class Exercise to Practice Using Test Doubles
 
-- Course: CS-UH-3260
 - Instructor: Sarah Nadi
 
 ## Learning Objective
