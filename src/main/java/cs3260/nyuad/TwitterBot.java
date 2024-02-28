@@ -29,10 +29,6 @@ public class TwitterBot {
   private Twitter twitter;
   private static final String BOT_SIGNATURE = " (posted using TwitterBot)";
 
-  public TwitterBot(Twitter twitter) {
-    this.twitter = twitter;
-  }
-
   public TwitterBot() {
     // The factory instance is re-useable and thread safe.
     // you would need to access the twitter API using your twitter4j.properties file
